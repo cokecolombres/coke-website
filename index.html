@@ -61,7 +61,7 @@
             <div class="row">
                 <nav class="navbar fixed-top navbar-expand-lg navbar-light white-bg">
                     <div class="col-md-3 purple-bg">
-                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+                        <a class="navbar-brand" href="index.html"><img src="images/coke-logo.png" class="img-fluid" alt="logo"></a>
                     </div>
                     <div class="col-md-9">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,12 +105,12 @@
                 <div class="row row-eq-height h-100">
                     <div class="col-md-3 purple-bg">
                         <div class="iq-objects">
-<!-- BACKGROUND PARTICLES -->   
-        <div id="particles-js"></div>
+                        <!-- BACKGROUND PARTICLES -->   
+                          <div id="particles-js"></div>
 
                             <span class="iq-objects-01">
-                                    <img class="img-fluid" src="images/01.png" alt="drive">
-                                </span>
+
+                            </span>
                         </div>
                     </div>
                     <div class="col-md-9 main-content align-self-center">
@@ -119,7 +119,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="boder-img">
-                                            <img src="http://via.placeholder.com/485x629" class="img-fluid" alt="#">
+                                            <img src="images/foto1.jpg" class="img-fluid" alt="#">
                                         </div>
                                     </div>
                                     <div class="col-md-8 content-deta">
@@ -134,7 +134,8 @@
                                         <p class="lead iq-tw-4">
                                             Amo la naturaleza y el deporte al aire libre. Soy maestro de kung fu (wing chun SSL) y en mi tiempo libre practico calistenia.
                                         </p>
-                                        <a class="button iq-mt-30" href="about-us.html">Mirá mi presentación</a>
+
+                                        <a class="button btn iq-mt-30" data-toggle="tooltip" title="En desarrollo..">Mirá mi presentación</a>
                                     </div>
                                 </div>
                             </div>
@@ -153,17 +154,15 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 purple-bg">
-                    <div class="footer-copyright text-white">Copyright @ <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a class="text-white" href="#">Coke Colombres.</a></div>
+                    <div class="footer-copyright text-white">Copyright @ <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a class="text-white" href="http://www.cokecolombres.com">Coke Colombres</a></div>
                 </div>
                 <div class="col-md-9">
                     <ul class="follow-us pull-right">
                         <li>Followeame :</li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://www.instagram.com/cokecolombres/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/coke-colombres-a39190103/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/cokecolombres" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://web.facebook.com/cokecolombres/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -207,6 +206,12 @@
 
     <!-- Custom -->
     <script type="text/javascript" src="js/custom.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+            })
+    </script>
 
 </body>
 
