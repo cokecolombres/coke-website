@@ -11,7 +11,7 @@
     <title>Coke Colombres - Desarrollador de proyectos digitales</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="images/coke-favicon.png" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;Raleway:400,500,600,700,800" rel="stylesheet">
@@ -82,7 +82,7 @@
                                     <a class="nav-link" data-type="page-transition" href="portfolio.html">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="blog.html">blog</a>
+                                    <a class="nav-link" data-type="page-transition" data-toggle="modal" data-target="#exampleModalCenter" style="cursor: pointer;">blog</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-type="page-transition" href="contact-us.html">Contacto</a>
@@ -136,6 +136,13 @@
                                         </p>
 
                                         <a class="button btn iq-mt-30" data-toggle="tooltip" title="En desarrollo..">Mirá mi presentación</a>
+
+                                        <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button> -->
+
+
                                     </div>
                                 </div>
                             </div>
@@ -170,6 +177,37 @@
     </footer>
     <!-- Footer End -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Sección en desarrollo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Si quieres ayudarme puedes aportar <b>comentarios o sugerencias</b>
+            <hr>
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Enviar comentarios</button>
+          </div>
+        </div>
+      </div>
+    </div>
  
 
 
